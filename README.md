@@ -28,8 +28,6 @@ A powerful Word Add-in that automatically redacts sensitive information, adds co
 ## Testing Your Solution
 Use the attached Document-To-Be-Redacted.docx file to test your solution. The document contains various instances of sensitive information that should be redacted when your add-in is executed.
 
-We will use a different document to evaluate your solution, so ensure that your redaction logic is robust and can handle various scenarios.
-
 
 ## Getting Started
 
@@ -49,5 +47,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-MIT License - feel free to use this project for your own purposes.
-
+MIT License
