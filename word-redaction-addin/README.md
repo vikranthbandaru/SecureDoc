@@ -4,22 +4,22 @@ A professional Word Add-in built with **Vite + TypeScript** that redacts sensiti
 
 ## Features
 
-✅ **Redact Sensitive Information**
+ **Redact Sensitive Information**
 - Emails (e.g., `john@example.com`)
 - Phone numbers (multiple formats: `123-456-7890`, `(123) 456-7890`, `+1 123 456 7890`, `1234567890`)
 - Social Security Numbers (e.g., `123-45-6789`, `123456789`)
 
-✅ **Add Confidential Header**
+ **Add Confidential Header**
 - Inserts "CONFIDENTIAL DOCUMENT" at the top of the document
 - Prevents duplicate headers
 - Professionally styled (centered, bold, red)
 
-✅ **Track Changes Support**
+ **Track Changes Support**
 - Automatically enables Track Changes if Word API 1.5+ is available
 - Graceful fallback for older Word versions
 - All redactions and header insertions are tracked when available
 
-✅ **Works Everywhere**
+ **Works Everywhere**
 - Word on the Web
 - Word Desktop (Windows, Mac)
 
@@ -163,8 +163,8 @@ After running the redaction, these will be replaced with appropriate redaction m
 
 **Track Changes is enabled automatically** if your Word version supports **Word API 1.5+**:
 
-- ✅ **Word 2016 or later** (Desktop)
-- ✅ **Word Online** (modern versions)
+-  **Word 2016 or later** (Desktop)
+-  **Word Online** (modern versions)
 
 If Track Changes is not supported:
 - The add-in will still work perfectly
