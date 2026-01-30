@@ -1,0 +1,22 @@
+{
+    "name": "secure-doc",
+    "version": "1.0.0",
+    "description": "SecureDoc - Professional Word Add-in for redacting sensitive information and ensuring document compliance",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "cert": "node scripts/generate-cert.js"
+    },
+    "dependencies": {
+        "@microsoft/office-js": "^1.1.91"
+    },
+    "devDependencies": {
+        "@types/office-js": "^1.0.391",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.11",
+        "vite-plugin-mkcert": "^1.17.3"
+    }
+}

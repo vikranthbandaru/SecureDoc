@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redaction Tool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./taskpane.css">
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Document Redaction</h1>
+            <p class="subtitle">Protect sensitive information and mark documents as confidential</p>
+        </header>
+
+        <main class="main">
+            <div class="action-section">
+                <button id="redactButton" class="primary-button">
+                    <span class="button-icon">🔒</span>
+                    <span class="button-text">Redact & Mark Confidential</span>
+                </button>
+                <p class="info-text">
+                    This will redact emails, phone numbers, and SSNs, then add a confidential header.
+                </p>
+            </div>
+
+            <div id="loadingSection" class="loading-section hidden">
+                <div class="spinner"></div>
+                <p class="loading-text">Processing document...</p>
+            </div>
+
+            <div id="resultsSection" class="results-section hidden">
+                <h2 class="results-title">Results</h2>
+                <div class="results-grid">
+                    <div class="result-item">
+                        <span class="result-label">Emails Redacted</span>
+                        <span id="emailCount" class="result-value">0</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">Phones Redacted</span>
+                        <span id="phoneCount" class="result-value">0</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">SSNs Redacted</span>
+                        <span id="ssnCount" class="result-value">0</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">Header Inserted</span>
+                        <span id="headerStatus" class="result-value">-</span>
+                    </div>
+                    <div class="result-item full-width">
+                        <span class="result-label">Track Changes</span>
+                        <span id="trackingStatus" class="result-value">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="errorSection" class="error-section hidden">
+                <div class="error-icon">⚠️</div>
+                <h3 class="error-title">An Error Occurred</h3>
+                <p id="errorMessage" class="error-message"></p>
+                <button id="dismissError" class="secondary-button">Dismiss</button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p class="footer-text">Ensures document confidentiality and data protection</p>
+        </footer>
+    </div>
+
+    <script type="module" src="./taskpane.ts"></script>
+</body>
+
+</html>
