@@ -19,6 +19,7 @@ A powerful Word Add-in that automatically redacts sensitive information, adds co
 https://drive.google.com/file/d/1z4Ijfcg4Ly16D8BzxiKr5ZjsTAv0MkNq/view?usp=sharing
 ## Working Model Screenshots
 <img width="2879" height="1696" alt="image" src="https://github.com/user-attachments/assets/463e0d70-974d-4e97-abaf-b08fe3e582ac" />
+
 ## Final Output After Redaction
 <img width="2879" height="1575" alt="image" src="https://github.com/user-attachments/assets/64749457-4fa0-4e28-bb74-94d35c28cc59" />
 
