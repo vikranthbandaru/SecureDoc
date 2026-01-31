@@ -17,6 +17,12 @@ A powerful Word Add-in that automatically redacts sensitive information, adds co
     [Word JavaScript API requirement set 1.5 - Office Add-ins | Microsoft Learn](https://learn.microsoft.com/en-us/javascript/api/requirement-sets/word/word-api-1-5-requirement-set?view=word-js-preview)
 ## Demo Link
 https://drive.google.com/file/d/1z4Ijfcg4Ly16D8BzxiKr5ZjsTAv0MkNq/view?usp=sharing
+## Working Model Screenshots
+<img width="2879" height="1696" alt="image" src="https://github.com/user-attachments/assets/463e0d70-974d-4e97-abaf-b08fe3e582ac" />
+## Final Output After Redaction
+<img width="2879" height="1575" alt="image" src="https://github.com/user-attachments/assets/64749457-4fa0-4e28-bb74-94d35c28cc59" />
+
+
 ## Technical Stack
     
 - **TypeScript** - Type-safe development
