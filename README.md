@@ -2,7 +2,7 @@
 
 A powerful Word Add-in that automatically redacts sensitive information, adds confidentiality headers, and enables tracking changes to maintain document security and compliance.
 
-## Requirements:
+## What it does?
 
 1. **Redact Sensitive Information**
     - Retrieve the document's complete content
@@ -15,7 +15,8 @@ A powerful Word Add-in that automatically redacts sensitive information, adds co
     - Use the Office Tracking Changes API to enable tracking changes
     - Make sure to only use Tracking Changes if the Word API is available
     [Word JavaScript API requirement set 1.5 - Office Add-ins | Microsoft Learn](https://learn.microsoft.com/en-us/javascript/api/requirement-sets/word/word-api-1-5-requirement-set?view=word-js-preview)
-
+## Demo Link
+https://drive.google.com/file/d/1z4Ijfcg4Ly16D8BzxiKr5ZjsTAv0MkNq/view?usp=sharing
 ## Technical Stack
     
 - **TypeScript** - Type-safe development
@@ -31,7 +32,7 @@ Use the attached Document-To-Be-Redacted.docx file to test your solution. The do
 
 ## Getting Started
 
-1. We recommend cloning the repository to your local machine to get started.
+1. Cloning the repository to your local machine to get started is recommended.
 2. `npm install`
 3. `npm start`
    - Starts local server on port 3000.
